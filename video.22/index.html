@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .html {
+            font-size: 10px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2330px; */
+            width: 200vw;
+            height: 5vh;
+            margin: 20px auto;
+            background-color: red;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2330px; */
+            width: 80vw;
+            /* height: 60vh; */
+            min-height: 80vh;
+
+            font-size: 15px;
+            margin: 20px auto;
+            background-color: red;
+        }
+
+        .container >div {
+            font-size: 1em;
+            border:2px solid red;
+            width: 50%;
+        }
+        .container >div > div{
+              border:2px solid blue;
+            width: 50%;
+
+        }
+
+        .mycont {
+            border: 20px;
+            box-sizing: border-box;
+            background-color: red;
+            color: yellow;
+            font-size: 22px;
+            width: 100vmin;
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        This is a box
+    </div>
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, sapiente? Reprehenderit quibusdam sint
+            est aliquam facere, nemo sapiente eveniet sit, laudantium molestiae illum nihil distinctio autem consequatur
+            atque sunt. Rem veniam nesciunt porro deserunt odit vitae quod a error consectetur!
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ratione numquam sunt voluptatibus eveniet excepturi! Ea, delectus dolor tempore porro impedit soluta dignissimos?</div>
+        </div>
+        /* <p> This adjust the height and width of the content </p> */
+    </div>
+    <div class="mycont">
+        This my container
+    </div>
+</body>
+
+</html>
