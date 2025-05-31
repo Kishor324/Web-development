@@ -1,0 +1,83 @@
+<!--  Exeriscise number 4 by uisng css variables -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exericise-4</title>
+    <style>
+        body {
+            background-color: var(--seccolor);
+        }
+
+        :root {
+            --color: rgb(190, 65, 65);
+            --seccolor: rgb(201, 201, 16);
+            --textcolor: rgb(75, 75, 133);
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .nav {
+            background-color: var(--color);
+
+            /* background-color: var(--color);
+            height: 300px;
+            width: 400px; */
+        }
+
+
+
+
+        /* .nav {
+                border: 2px soli red;
+            } */
+
+        ul {
+            display: flex;
+
+        }
+
+        ul li {
+            list-style: none;
+            /* display: flex; */
+            color: blue;
+            padding: 20px;
+            margin: 2px;
+            font-weight: bolder;
+            border: 2px var(--seccolor);
+            color: var(--textcolor)
+        }
+
+        /* ul li:first-child {
+            color: aqua;
+        } */
+
+        /* ul li:second-chid{
+                color:red;
+            } */
+        .box {
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>Adress</li>
+            <li>contact</li>
+            <li>About</li>
+        </ul>
+    </div>
+    <!-- <div class="box"></div> -->
+</body>
+
+</html>
