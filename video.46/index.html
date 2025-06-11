@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .container {
+            background-color: rgb(97, 97, 97);
+            height: 80vh;
+            width: 30vw;
+        }
+
+        .box {
+            width: 34px;
+            height: 45px;
+            /* background-color: red; */
+            /* animation-name: kishorkaAnimation;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-out
+animation-delay: 1sec;
+ animation-direction: alternate-reverse; 
+animation-play-state: paused; */
+            animation: kishor 3s ease-in-out 3s 1,
+                kishor2 4s ease-out 3s 1;
+        }
+
+        @keyframes kishor {
+            form {
+                background-color: rgb(151, 52, 52);
+            }
+
+            to {
+                background-color: rgb(200, 255, 0);
+                /* transform: translateX(1000px); */
+            }
+
+        }
+
+        @keyframes kishor2 {
+            0% {
+                transform: rotate(100deg);
+
+            }
+
+            20% {
+                transform: rotate(200deg);
+
+            }
+
+            40% {
+                transform: rotate(220deg);
+            }
+
+            80% {
+                transform: rotate(300deg);
+            }
+
+            100% {
+                transform: rotate(310deg);
+
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            box </div>
+    </div>
+
+</body>
+
+</html>
