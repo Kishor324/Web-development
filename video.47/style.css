@@ -1,0 +1,158 @@
+  * {
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+
+        .icon {
+            width: 20px;
+            height: 15px;
+            right: 40px;
+        }
+
+        .lcon image {
+            weidth: 20px;
+
+        }
+
+        nav {
+            /* margin: auto; */
+            /* padding: 15px; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+        }
+
+        .list ul {
+            display: flex;
+            margin: autopx;
+            gap: 44px;
+        }
+
+        .list ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin: 15px;
+            padding: 0px;
+        }
+
+        .list ul li span {
+            padding: 0 5px;
+
+
+        }
+
+        .frist {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 70px;
+            flex-direction: column;
+            gap: 23px;
+            font-family: sans-serif;
+
+        }
+
+        .frist span {
+            font-size: 45px;
+        }
+
+        section span img {
+            width: 82px;
+            margin: 0 23px;
+        }
+
+        .frist p {
+            width: 65vw;
+            font-size: 23px;
+            text-align: center;
+        }
+
+        .btn {
+            background-color: rgb(136, 136, 228);
+            padding: 16px 14px;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 100;
+            cursor: pointer;
+            margin: 12px 0px;
+        }
+        .green{
+            background-color: rgb(31, 58, 31);
+
+        }
+
+        .flex {
+            display: flex;
+ /* justify-content: center; */
+        }
+
+        .small {
+            font-size: 15px;
+        }
+
+        /* .class h1 {
+            margin: 500em: padding:auto
+        }
+
+        .class h2 {
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+        } */
+         .second{
+            /* display: flex; */
+            max-width: 70vw;      
+            margin: auto;
+                  flex-direction: column; 
+            /* justify-content:  center; */
+            align-items: center;
+         }
+         .term{
+            padding: 24px;
+            border-radius: 23px;
+        background-color: #f9f9f9; 
+    font-size: 24px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;  
+text-align: center;
+     }
+        .item{
+            text-align: center;
+            font-weight: 500;
+padding-bottom: 20px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        .download:nth-child(2){
+            font-size: 12px;
+            /* width: 12px; */
+        }
+        .download{
+            font-family: serif;
+            /* font-size: medium; */
+            gap: 12px;
+            padding: 15px;
+            margin: 10px;
+align-items: center;
+        }
+        .download img{
+            width: 23px;
+        }
+        .download span{
+            font-size: x-large;
+        }
+        @media  screen and (max-width:900px) {
+                 .grid{
+            
+            grid-template-columns: 1fr ;
+            
+        }
+        }
