@@ -9,7 +9,7 @@ console.log("I am a Tutorial in loop")
 
 // for(i=0; i<100; i++){
 //      console.log(a+i)
-// }
+// } 
 // let obj = {
 //     name: " kishor",
 //     role : "programmer",
