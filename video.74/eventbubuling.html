@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .child {
+            background-color: aqua;
+            /* border-radius: 20px; */
+            border: 2px solid black;
+padding: 32px;
+margin: 34px;
+            width: 150px;
+            height: 30px;
+            cursor: pointer;
+        
+        }
+
+        .childcontainer{
+            background-color: rgb(217, 231, 16);
+
+            margin: 14px;
+            padding: 14px;
+
+        }
+        .container{
+            background-color: rgb(136, 14, 14);
+            margin: 14px;
+        padding: 14px;
+        }
+            </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="childcontainer">
+            <div class="child">
+                I am a chlid
+            </div>
+        </section>
+    </div>
+  
+    
+    <script>
+        document.getElementsByClassName(".child").addEventListener("click", (e) => {
+            e.stopPropagation()
+            alert("Child Was clicked")
+        })
+
+        document.getElementsByClassName(".childContainer").addEventListener("click", (e) => {
+            e.stopPropagation()
+            alert("childContainer Was clicked")
+        })
+
+        document.getElementsByClassName(".container").addEventListener("click", (e) => {
+            alert("container Was clicked")
+        })
+
+        function getRandomColor() {
+            let val1 = Math.ceil(0 + Math.random() * 255);
+            let val2 = Math.ceil(0 + Math.random() * 255);
+            let val3 = Math.ceil(0 + Math.random() * 255);
+            return `rgb(${val1}, ${val2}, ${val3})`
+        }
+        // let a = setInterval(() => {
+        //     document.querySelector(".childContainer").style.background = getRandomColor();
+        // }, 1000);
+
+        // console.log(a)
+
+    setTimeout(() => {
+            document.getElementsByClassName(".childContainer").style.background = getRandomColor();
+        }, 1000);
+
+        
+        // document.querySelector(".chlid").addEventListener("click", () => {
+
+        //     alert(" chlid was clicled")
+        // }
+        // )
+        // document.querySelector(".childcontainer").addEventListener("click", () => {
+
+        //     alert(" chlidconatiner was clicked")
+        // }
+        // )
+        // document.querySelector(".container").addEventListener("click", () => {
+
+        //     alert(" conatiner was clicked")
+        // }
+        // )
+        // document.querySelector(".box").innerHTML = "<b> yayy you were clicked</b> enjoy your click! "
+    </script>
+</body>
+
+</html>
