@@ -2,11 +2,11 @@ console.log(" This is try to make hacker interface by using js")
 
 
 const messages = [
-    "Initializing Hacking...",
-    " Reading your Files...",
-    "Password files Dectected...",
-    "Sending all passwords and personal files to server...",
-    "cleaning up..."
+    "Initializing Hacking",
+    " Reading your Files",
+    "Password files Dectected",
+    "Sending all passwords and personal files to server",
+    "cleaning up"
 
 ];
 const output = document.getElementById("output");
