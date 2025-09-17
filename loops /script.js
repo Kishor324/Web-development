@@ -26,5 +26,28 @@
 
 
 // for of loop
-let str = " kishor bai";
- for (let i of str)
+// let str = " kishor bai";
+
+
+// let size =0;
+//  for (let i of str){
+//      console.log("i=",i)
+
+//     //  size++;
+
+//  }
+
+//  console.log("string size=", size);
+
+
+// or in loop
+ let student ={
+
+     name:" kishor bhatt",
+      age :20,
+       cgpa : 9.7,
+       isPass: true,
+ };
+  for ( let i in student){
+     console.log("i=",i," value=", student[i]);
+  }
