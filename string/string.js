@@ -75,6 +75,10 @@
 
 let str ="I love u"
 
-console.log(str.charAt(7));
+// console.log(str.charAt(7));
 
 
+let str2 =
+" harry is beautiful"
+let res = str2 + str1;// it is also a method to join all the string wiht another string its is just a same as some keys as concat,psuh,etc
+// console.log()
