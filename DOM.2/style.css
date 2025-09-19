@@ -1,0 +1,24 @@
+/* div {
+     height: 180px;
+      width: 120px;
+      background-color: rgb(226, 124, 0);
+     color: white;
+     border: 1px solid black;
+
+
+    } */
+
+    .box{
+        background-color: red;
+        height: 159px;
+        width: 200px;
+        color-scheme: white;
+        color: rgb(58, 54, 54);
+margin: 2px;
+    }
+
+    .newclass{
+
+        background-color: green;
+        /* height: 500px; */
+    }

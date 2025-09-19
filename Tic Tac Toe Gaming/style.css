@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+
+};
+
+html,body{
+    height: 100%;
+    margin: 0;
+    /* background-color: rgb(145, 118, 118); */
+   /* background-color: #548687; */
+    /* background-color: rgb(124, 199, 174);
+    text-align: center; */
+}
+body{
+     background-color: rgb(124, 199, 174);
+    text-align: center;
+}
+
+
+
+.conatiner{
+     height: 80vh;
+    /* background-color: rgb(124, 199, 174); */
+ display:flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     gap : 2px;
+}
+
+.xy{
+    font-variant:normal ;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+}
+
+.game{
+    height:60vmin;
+    width: 60vmin;
+    display:flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     gap : 2px;
+}
+
+.box{
+    height: 18vmin;
+  width: 18vmin;
+  color: rgb(5, 69, 153);
+  background-color: rgb(190, 218, 218);
+  padding-bottom: 2px;
+  margin-left: 4px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0cqi;
+    /* display: flex;
+    flex-wrap: wrap; */ 
+    font-size: 10vmin;
+    color: rgb(99, 56, 56);
+    margin: 4px;
+
+} 
+#rest{
+    margin:35px;
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: centre;
+    justify-items: center;
+    text-align: center;
+    justify-self: unset;
+    text-wrap-style: none;
+    background-color: rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
+      box-shadow: 0cqi;
+    border-radius: none;
+
+    
+}
